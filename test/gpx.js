@@ -1,6 +1,6 @@
 import assert from 'assert';
 import fs from 'fs';
-import GPX from '../src/gpx';
+import GPX from '../src/gpx.js';
 
 describe('GPX', function() {
   describe('Parse', function() {
