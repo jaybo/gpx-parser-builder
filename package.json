@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "A simple gpx parser and builder between GPX string and JavaScript object",
   "main": "./src/gpx.js",
+  "type": "module",
   "scripts": {
     "test": "mocha --require @babel/register test/**/*.js"
   },
