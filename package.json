@@ -1,27 +1,28 @@
 {
   "name": "gpx-parser-builder",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple gpx parser and builder between GPX string and JavaScript object",
   "main": "./src/gpx.js",
   "type": "module",
+  "private": true,
   "scripts": {
     "test": "mocha --require @babel/register test/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kf99916/gpx-parser-builder.git"
+    "url": "git+https://github.com/jaybo/gpx-parser-builder.git"
   },
   "keywords": [
     "gpx",
     "parser",
     "builder"
   ],
-  "author": "Zheng-Xiang Ke",
+  "author": "Jay Borseth and Zheng-Xiang Ke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kf99916/gpx-parser-builder/issues"
+    "url": "https://github.com/jaybo/gpx-parser-builder/issues"
   },
-  "homepage": "https://github.com/kf99916/gpx-parser-builder",
+  "homepage": "https://github.com/jaybo/gpx-parser-builder",
   "files": [
     "src"
   ],
