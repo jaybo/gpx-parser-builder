@@ -17,7 +17,7 @@
     "parser",
     "builder"
   ],
-  "author": "Jay Borseth and Zheng-Xiang Ke",
+  "author": "Jay Borseth (Zheng-Xiang Ke, Andrew Suzuki)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jaybo/gpx-parser-builder/issues"

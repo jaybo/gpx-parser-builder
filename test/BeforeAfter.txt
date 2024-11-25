@@ -1,0 +1,93 @@
+yarn build:pwa
+
+Before
+ ╔═════════════════════════════════════╦══════════════╦══════════════╗
+ ║                               Asset ║         Size ║      Gzipped ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                   service-worker.js ║     11.85 KB ║      5.27 KB ║
+ ║                 workbox-6f826560.js ║     15.15 KB ║      5.23 KB ║
+ ║            assets/axios-C1_wDN6Y.js ║      0.26 KB ║      0.21 KB ║
+ ║            assets/index-DHq47YLz.js ║   1175.75 KB ║    383.17 KB ║
+ ║        assets/IndexPage-DKvf6Hly.js ║   1442.10 KB ║    416.36 KB ║
+ ║       assets/MainLayout-C3HoHwtO.js ║     27.44 KB ║      8.43 KB ║
+ ║           assets/mapbox-BuXR6VqF.js ║   1414.91 KB ║    390.32 KB ║
+ ║           assets/moment-Z66-z1QA.js ║    779.56 KB ║     57.42 KB ║
+ ║   assets/photoswipe.esm-Bk2q-r_a.js ║     58.99 KB ║     17.01 KB ║
+ ║            assets/pinia-CiHHG1D6.js ║      2.13 KB ║      0.99 KB ║
+ ║      assets/QScrollArea-BplHAm9_.js ║     61.70 KB ║     20.07 KB ║
+ ║ assets/tideEngineWorker-CvVOAOP7.js ║     63.94 KB ║     21.10 KB ║
+ ║    assets/WeatherWorker-D_mdOOMy.js ║     36.39 KB ║     14.68 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║           assets/index-CbaVFKdW.css ║    579.57 KB ║     99.57 KB ║
+ ║       assets/IndexPage-Djdrj0-h.css ║     34.14 KB ║      7.94 KB ║
+ ║      assets/MainLayout-BlLXEk4d.css ║      0.76 KB ║      0.38 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                       manifest.json ║      0.54 KB ║            - ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                          index.html ║      4.83 KB ║            - ║
+ ╠═════════════════════════════════════╬══════════════╬══════════════╣
+ ║                 Total JS (13 files) ║   5090.18 KB ║            - ║
+ ║                 Total CSS (3 files) ║    614.47 KB ║            - ║
+ ╚═════════════════════════════════════╩══════════════╩══════════════╝
+
+ Remove BuildGPX (old version) but no additions
+ 
+ ╔═════════════════════════════════════╦══════════════╦══════════════╗
+ ║                               Asset ║         Size ║      Gzipped ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                   service-worker.js ║     11.85 KB ║      5.28 KB ║
+ ║                 workbox-6f826560.js ║     15.15 KB ║      5.23 KB ║
+ ║            assets/axios-MXs8Pn9Q.js ║      0.26 KB ║      0.21 KB ║
+ ║            assets/index-DNKxevLQ.js ║   1107.34 KB ║    367.65 KB ║
+ ║        assets/IndexPage-DUC5pRAK.js ║   1442.10 KB ║    416.35 KB ║
+ ║       assets/MainLayout-CVu-ZXY9.js ║     27.44 KB ║      8.43 KB ║
+ ║           assets/mapbox-BuXR6VqF.js ║   1414.91 KB ║    390.32 KB ║
+ ║           assets/moment-Z66-z1QA.js ║    779.56 KB ║     57.42 KB ║
+ ║   assets/photoswipe.esm-Bk2q-r_a.js ║     58.99 KB ║     17.01 KB ║
+ ║            assets/pinia-5a261DuH.js ║      2.13 KB ║      0.98 KB ║
+ ║      assets/QScrollArea-CMs4Jk-r.js ║     61.70 KB ║     20.06 KB ║
+ ║ assets/tideEngineWorker-CvVOAOP7.js ║     63.94 KB ║     21.10 KB ║
+ ║    assets/WeatherWorker-D_mdOOMy.js ║     36.39 KB ║     14.68 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║           assets/index-CbaVFKdW.css ║    579.57 KB ║     99.57 KB ║
+ ║       assets/IndexPage-Djdrj0-h.css ║     34.14 KB ║      7.94 KB ║
+ ║      assets/MainLayout-BlLXEk4d.css ║      0.76 KB ║      0.38 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                       manifest.json ║      0.54 KB ║            - ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                          index.html ║      4.83 KB ║            - ║
+ ╠═════════════════════════════════════╬══════════════╬══════════════╣
+ ║                 Total JS (13 files) ║   5021.77 KB ║            - ║
+ ║                 Total CSS (3 files) ║    614.47 KB ║            - ║
+ ╚═════════════════════════════════════╩══════════════╩══════════════╝
+
+After switch
+
+ ╔═════════════════════════════════════╦══════════════╦══════════════╗
+ ║                               Asset ║         Size ║      Gzipped ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                   service-worker.js ║     11.85 KB ║      5.27 KB ║
+ ║                 workbox-6f826560.js ║     15.15 KB ║      5.23 KB ║
+ ║            assets/axios-RmqIDf4r.js ║      0.26 KB ║      0.21 KB ║
+ ║            assets/index-C6CyQsRc.js ║   1118.01 KB ║    371.10 KB ║
+ ║        assets/IndexPage-CHwyWc0f.js ║   1442.10 KB ║    416.36 KB ║
+ ║       assets/MainLayout-DLd3pU2X.js ║     27.44 KB ║      8.43 KB ║
+ ║           assets/mapbox-BuXR6VqF.js ║   1414.91 KB ║    390.32 KB ║
+ ║           assets/moment-Z66-z1QA.js ║    779.56 KB ║     57.42 KB ║
+ ║   assets/photoswipe.esm-Bk2q-r_a.js ║     58.99 KB ║     17.01 KB ║
+ ║            assets/pinia-BI3-jVdM.js ║      2.13 KB ║      0.98 KB ║
+ ║      assets/QScrollArea-B8JDo8Yi.js ║     61.70 KB ║     20.07 KB ║
+ ║ assets/tideEngineWorker-CvVOAOP7.js ║     63.94 KB ║     21.10 KB ║
+ ║    assets/WeatherWorker-D_mdOOMy.js ║     36.39 KB ║     14.68 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║           assets/index-CbaVFKdW.css ║    579.57 KB ║     99.57 KB ║
+ ║       assets/IndexPage-Djdrj0-h.css ║     34.14 KB ║      7.94 KB ║
+ ║      assets/MainLayout-BlLXEk4d.css ║      0.76 KB ║      0.38 KB ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                       manifest.json ║      0.54 KB ║            - ║
+ ╟─────────────────────────────────────╫──────────────╫──────────────╢
+ ║                          index.html ║      4.83 KB ║            - ║
+ ╠═════════════════════════════════════╬══════════════╬══════════════╣
+ ║                 Total JS (13 files) ║   5032.44 KB ║            - ║
+ ║                 Total CSS (3 files) ║    614.47 KB ║            - ║
+ ╚═════════════════════════════════════╩══════════════╩══════════════╝

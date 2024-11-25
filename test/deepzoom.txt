@@ -1,0 +1,33 @@
+<gpx version="1.1" creator="deepzoom" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:opencpn="http://www.opencpn.org" xmlns:deepzoom="http://www.deepzoom.com">
+  <metadata>
+    <name>A DeepZoom Trip</name>
+    <time>2024-11-24T07:59:30Z</time>
+    <extensions>
+      <deepzoom:trip>A DeepZoom Trip Alt</deepzoom:trip>
+    </extensions>
+  </metadata>
+  <rte>
+    <name>Route 1</name>
+    <extensions>
+      <opencpn:planned_speed>5</opencpn:planned_speed>
+      <opencpn:planned_departure>2024-12-07T09:01-08:00</opencpn:planned_departure>
+      <deepzoom:foo>bar</deepzoom:foo>
+    </extensions>
+    <rtept lat="22.333" lon="120.333">
+      <ele>1016</ele>
+      <time>2019-07-01T09:16:00Z</time>
+      <name>Route Point 1</name>
+      <extensions>
+        <gpx:test>Route Point 1</gpx:test>
+      </extensions>
+    </rtept>
+    <rtept lat="22.916" lon="120.916">
+      <ele>1016</ele>
+      <time>2019-07-01T09:16:00Z</time>
+      <name>Route Point 2</name>
+      <extensions>
+        <gpx:test>Route Point 2</gpx:test>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>
